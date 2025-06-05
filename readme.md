@@ -80,7 +80,7 @@ In PowerShell, open 4 new terminal windows/tabs and run:
 
 ```powershell
 start cmd /k "uvicorn agents.host_agent.__main__:app --port 8000"
-start cmd /k "uvicorn agents.flights_agent.__main__:app --port 8001"
+start cmd /k "uvicorn agents.flight_agent.__main__:app --port 8001"
 start cmd /k "uvicorn agents.stay_agent.__main__:app --port 8002"
 start cmd /k "uvicorn agents.activities_agent.__main__:app --port 8003"
 ```
